@@ -1,4 +1,4 @@
-# � SMARS Q - Distance Monitor
+# SMARS Q - Distance Monitor
 
 ### Description
 
