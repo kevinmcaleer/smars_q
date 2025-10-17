@@ -5,6 +5,7 @@
 
 long duration;
 int distance;
+int dist;
 
 void setup() {
   
@@ -38,10 +39,13 @@ int ping() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
+  return distance;
 } 
 
 void loop() {
-  Monitor.println("this is a test of monitor");
-  ping();
-  delay(1000);
+  dist = ping();
+  Monitor.print("Distance is:");
+  Monitor.print(dist);
+  Monitor.println("cm");
+  delay(500);
 }
