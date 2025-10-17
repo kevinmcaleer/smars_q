@@ -2,7 +2,7 @@
 # This file describes the application's metadata and properties.
 
 # The user-visible name of the application.
-name: measure distance
+name: "measure distance"
 
 # A brief description of what the application does.
 description: "Measure Distance"
