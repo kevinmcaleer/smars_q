@@ -5,10 +5,10 @@
 name: montor_from_serial
 
 # A brief description of what the application does.
-description: ""
+description: "Measure Distance"
 
 # The icon for the application, can be an emoji or a short string.
-icon: 😀
+icon: 📐
 
 # A list of network ports that the application exposes.
 # Example: [80, 443]
